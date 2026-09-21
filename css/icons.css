@@ -1,0 +1,20 @@
+.mimoo-icon {
+  display: inline-block;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+/* Inside a sentence: sits on the text baseline and keeps the line height. */
+.icon-inline {
+  vertical-align: -0.22em;
+  margin: 0 0.06em;
+}
+
+/* Icons inside round badges and buttons. */
+.icon-badge {
+  display: grid;
+  place-items: center;
+  border-radius: 11px;
+  background: var(--tint-soft, var(--accent-soft));
+  flex-shrink: 0;
+}
